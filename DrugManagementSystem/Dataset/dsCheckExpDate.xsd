@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsCheckExpDate" targetNamespace="http://tempuri.org/dsCheckExpDate.xsd" xmlns:mstns="http://tempuri.org/dsCheckExpDate.xsd" xmlns="http://tempuri.org/dsCheckExpDate.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsCheckExpDate" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="dsCheckExpDate" msprop:Generator_UserDSName="dsCheckExpDate">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="dsCheckExpDate" msprop:Generator_TableClassName="dsCheckExpDateDataTable" msprop:Generator_TableVarName="tabledsCheckExpDate" msprop:Generator_RowChangedName="dsCheckExpDateRowChanged" msprop:Generator_TablePropName="_dsCheckExpDate" msprop:Generator_RowDeletingName="dsCheckExpDateRowDeleting" msprop:Generator_RowChangingName="dsCheckExpDateRowChanging" msprop:Generator_RowEvHandlerName="dsCheckExpDateRowChangeEventHandler" msprop:Generator_RowDeletedName="dsCheckExpDateRowDeleted" msprop:Generator_RowClassName="dsCheckExpDateRow" msprop:Generator_UserTableName="dsCheckExpDate" msprop:Generator_RowEvArgName="dsCheckExpDateRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="drugName" msprop:Generator_ColumnVarNameInTable="columndrugName" msprop:Generator_ColumnPropNameInRow="drugName" msprop:Generator_ColumnPropNameInTable="drugNameColumn" msprop:Generator_UserColumnName="drugName" type="xs:string" minOccurs="0" />
+              <xs:element name="lotNo" msprop:Generator_ColumnVarNameInTable="columnlotNo" msprop:Generator_ColumnPropNameInRow="lotNo" msprop:Generator_ColumnPropNameInTable="lotNoColumn" msprop:Generator_UserColumnName="lotNo" type="xs:string" minOccurs="0" />
+              <xs:element name="totalRemain" msprop:Generator_ColumnVarNameInTable="columntotalRemain" msprop:Generator_ColumnPropNameInRow="totalRemain" msprop:Generator_ColumnPropNameInTable="totalRemainColumn" msprop:Generator_UserColumnName="totalRemain" type="xs:string" minOccurs="0" />
+              <xs:element name="ExpDate" msprop:Generator_ColumnVarNameInTable="columnExpDate" msprop:Generator_ColumnPropNameInRow="ExpDate" msprop:Generator_ColumnPropNameInTable="ExpDateColumn" msprop:Generator_UserColumnName="ExpDate" type="xs:dateTime" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
